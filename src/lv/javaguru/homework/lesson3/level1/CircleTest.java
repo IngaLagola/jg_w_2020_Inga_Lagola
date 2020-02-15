@@ -9,6 +9,6 @@ public class CircleTest{
 
         myCircle.setRadius(radius);
 
-        System.out.println("Circle with radius " + myCircle.getRadius() + " has area " + myCircle.calculateArea() );
+        System.out.println("Circle with radius " + myCircle.getRadius() + " has area " + myCircle.calculateArea());
     }
 }

@@ -8,7 +8,7 @@ public class Circle{
         return 3.14 * radius * radius;
     }
 
-    public void setRadius(double radius){
+    public void setRadius(double radius) {
         this.radius = radius;
     }
 
