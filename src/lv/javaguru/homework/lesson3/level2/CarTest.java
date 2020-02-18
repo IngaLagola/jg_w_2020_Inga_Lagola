@@ -1,7 +1,9 @@
 package lv.javaguru.homework.lesson3.level2;
 
+//šis imports nav izmantots - dzēst
 import java.awt.*;
 
+//Ok
 public class CarTest{
     public static void main(String[] args) {
 

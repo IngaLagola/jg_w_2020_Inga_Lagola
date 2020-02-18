@@ -1,5 +1,6 @@
 package lv.javaguru.homework.lesson2.level1;
 
+//Ok
 public class MathOperations{
 
     public static void main(String[] args) {

@@ -1,10 +1,11 @@
 package lv.javaguru.homework.lesson3.level3;
 
+//izmanto "ctrl + alt + l"
 public class Product{
 
     private String name;
     private double regularPrice;
-    private double discount;
+    private double discount; //jābūt veselam skaitlim
 
     public void printInformation(){
         System.out.println("name " + name);
