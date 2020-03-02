@@ -3,7 +3,9 @@ package lv.javaguru.homework.lesson4.level1;
 public class LightColorDetector{
 
     public String detect(int wavelength) {
-        String waveColor = "Light is not visible";
+        String waveColor = "Light is not visible"; //šeit mainīgo nav nepieciešams inicializēt,
+        // jo esošais kods paredz "else" sadaļu kura tiks izpildīta, ja neviena cita "if -> else if"
+        //koda daļa netiks izsaukt
 
         if (wavelength > 380 && wavelength <= 449) {
             waveColor = "Violet";

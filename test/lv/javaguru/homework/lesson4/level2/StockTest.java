@@ -3,7 +3,10 @@ package lv.javaguru.homework.lesson4.level2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+//trūkst testi:
+// * pārbaudīt kādas vērtības saglabājas min laukā
+// * pārbaudīt kādas vērtības saglabājas max laukā
+// abos gadījumos pamēģini izsaukt "updatePrice" vairakas reizes ar dažādām vērtībām
 class StockTest{
     @Test
     void shouldGetCompanyName() {

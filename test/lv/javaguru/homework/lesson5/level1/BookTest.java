@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BookTest{
 
+    //šeit principā šī metode notestē gan get, gan set funkcionalitāti
     @Test
     void shouldSetAuthor() {
         Book book = new Book();
@@ -13,6 +14,7 @@ class BookTest{
         assertEquals("lulu", book.getAuthor());
     }
 
+    //atkārtot nav nepiciešams
     @Test
     void shouldGetAuthor() {
         Book book = new Book();
@@ -43,6 +45,7 @@ class BookTest{
     @Test
     void shouldGetPageCount() {
         Book book = new Book();
+        //neatstāj aizkomentētu kodu
         //   System.out.println(book.getPageCount());
         assertEquals(0, book.getPageCount());
     }
@@ -64,6 +67,8 @@ class BookTest{
         assertEquals(testString, book.toString());
     }
 
+    //testa nosaukumam ir jāapraksta test būtība
+    //šeit testam labaks nosaukums būs: shouldBooksBeEquals
     @Test
     void shouldReturnTrueWhenObjectsAreEqual() {
         String author = "lulu";
@@ -83,6 +88,9 @@ class BookTest{
 
         assertEquals(true, firstBook.equals(secondBook));
     }
+
+    //testa nosaukumam ir jāapraksta test būtība
+    //šeit testam labaks nosaukums būs: shouldBooksNotBeEquals
     @Test
     void shouldReturnFalseWhenObjectsAreNotEqual() {
         String author = "lulu";
