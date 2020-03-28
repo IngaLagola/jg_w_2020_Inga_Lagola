@@ -16,8 +16,12 @@ public class ArrayService{
     }
 
     public static void printArrayToConsole(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.println(array[i]);
+//        }
+
+        for (int number : array) {
+            System.out.println(number);
         }
     }
 
