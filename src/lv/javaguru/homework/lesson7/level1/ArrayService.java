@@ -2,6 +2,7 @@ package lv.javaguru.homework.lesson7.level1;
 
 import java.util.Random;
 
+//ok
 public class ArrayService{
 
     public static int[] create(int size) {
@@ -16,6 +17,7 @@ public class ArrayService{
     }
 
     public static void printArrayToConsole(int[] array) {
+        //neatstāj aizkomentētu kodu - dzēs to
 //        for (int i = 0; i < array.length; i++) {
 //            System.out.println(array[i]);
 //        }
@@ -28,7 +30,7 @@ public class ArrayService{
     public static int sumInArray(int[] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
-            sum = sum + array[i];
+            sum = sum + array[i];  //izmanto īso pierakstu "sum += array[i]"
         }
         return sum;
     }

@@ -6,7 +6,10 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//ok
 class ArrayServiceTest{
+
+    //metodes nosaukums ar mazao burtu rakstāms
     @Test
     void ShouldCreateNewArrayWithGivenSize() {
         int[] testArray;
@@ -16,6 +19,7 @@ class ArrayServiceTest{
         assertEquals(testSize, testArray.length );
     }
 
+    //metodes nosaukums ar mazao burtu rakstāms
     @Test
     void ShouldFillArrayWithRandomNumbers() {
         int[] firstArray = new int[5];
@@ -27,6 +31,7 @@ class ArrayServiceTest{
 
     }
 
+    //metodes nosaukums ar mazao burtu rakstāms
     @Test
     void ShouldSumInArray() {
         int[] testArray = {1,2,3,4,5};
