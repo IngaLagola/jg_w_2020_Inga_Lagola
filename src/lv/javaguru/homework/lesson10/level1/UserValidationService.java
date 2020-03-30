@@ -3,6 +3,8 @@ package lv.javaguru.homework.lesson10.level1;
 public class UserValidationService{
 
     public static void validateUser(User user) {
+        //pārbaudes iznes atsevišķā metodē, tad varēsi tās izmantot atkartoti
+        // kā arī tas dod iesp eju aprakstīt šo validāciju ar vārdiem
         if (user.getName().length() < 3 || user.getName().length() > 15) {
             throw new ValidationException("Name must be in range from 3 to 15");
         } else if (user.getLastName().length() < 3 || user.getLastName().length() > 15) {

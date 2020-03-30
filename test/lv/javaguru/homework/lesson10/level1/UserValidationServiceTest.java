@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//Ok
 class UserValidationServiceTest{
 
     @Test
@@ -30,7 +31,7 @@ class UserValidationServiceTest{
     }
 
     @Test
-    void shouldGetErrorWhenLastNameIsMoreThen3() {
+    void shouldGetErrorWhenLastNameIsMoreThen3() { //lessThan ;)
         User user = new User("lkllllllll", "bl", 10);
         try {
             UserValidationService.validateUser(user);
