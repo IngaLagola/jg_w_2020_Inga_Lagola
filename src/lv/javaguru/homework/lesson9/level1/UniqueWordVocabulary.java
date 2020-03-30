@@ -18,6 +18,7 @@ public class UniqueWordVocabulary{
         return wordVocabulary.size();
     }
 
+    //trūkst implementācijas
     public void printToConsole() {
 
     }
