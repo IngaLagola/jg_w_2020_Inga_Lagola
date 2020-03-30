@@ -1,10 +1,11 @@
 package lv.javaguru.homework.lesson8.level1;
 
+//dzēs neizmanotu importu
 import java.util.Objects;
 
 public class Truck extends Car{
 
-    protected int cargo;
+    protected int cargo;  //"crago" kas? Nav skaidrs, varbūt maxCargoWeight
 
     public Truck(int wheels, String color, String manufacturer, int cargo) {
         super(wheels, color, manufacturer);

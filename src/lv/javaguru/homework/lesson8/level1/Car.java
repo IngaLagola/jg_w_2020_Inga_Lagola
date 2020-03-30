@@ -2,6 +2,7 @@ package lv.javaguru.homework.lesson8.level1;
 
 import java.util.Objects;
 
+//ok
 public class Car{
 
     protected int wheels;

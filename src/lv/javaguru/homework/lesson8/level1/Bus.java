@@ -1,10 +1,11 @@
 package lv.javaguru.homework.lesson8.level1;
 
+//dzēs neizmanotu importu
 import java.util.Objects;
 
 public class Bus extends Car{
 
-    protected int standingPlacesInBus;
+    protected int standingPlacesInBus;  //nosaukumā "InBus" ir lieks, jo klases nosaukums ir Bus
 
     public Bus(int wheels, String color, String manufacturer, int standingPlacesInBus) {
         super(wheels, color, manufacturer);

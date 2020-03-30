@@ -1,10 +1,12 @@
 package lv.javaguru.homework.lesson8.level1;
 
+//dzēs neizmanotu importu
 import java.util.Objects;
 
-public class PassangerCar extends Car{
+//izmanto "ctrl + alt + l"
+public class PassangerCar extends Car{ //gramatikas kļūda klases nosaukumā
 
-    protected boolean gearBox;
+    protected boolean gearBox; //šis ir savāds stāvoklis, drošvien gribēji "manual" vai "auto" - tam vareji izmantot enumu
 
     public PassangerCar(int wheels, String color, String manufacturer, boolean gearBox) {
         super(wheels, color, manufacturer);
